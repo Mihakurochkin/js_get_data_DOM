@@ -11,8 +11,6 @@ let average =
   populationValues.reduce((container, item) => container + item, 0) /
   populationValues.length;
 
-average /= populationValues.length;
-
 let total = average * populationValues.length;
 
 average = average.toLocaleString('en-US');
